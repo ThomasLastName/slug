@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = 'test',
+    name = 'slug',
     version = '1.0.0',
     url = 'https://github.com/ThomasLastName/slug.git',
     author = 'Thomas Winckelman',
