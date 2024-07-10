@@ -1,3 +1,7 @@
+
+#
+# ~~~ From https://github.com/maet3608/minimal-setup-py/blob/master/setup.py
+
 from setuptools import setup, find_packages
 
 setup(
