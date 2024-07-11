@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'package_name',
-    version = '1.0.0',
+    version = '1.2.0',
     url = 'https://github.com/ThomasLastName/slug.git',
     author = 'Thomas Winckelman',
     author_email = 'winckelman@tamu.edu',
