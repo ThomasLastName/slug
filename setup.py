@@ -13,5 +13,5 @@ setup(
     author_email = 'winckelman@tamu.edu',
     description = 'Description of my package',
     packages = find_packages(),    
-    install_requires = ["pyreadr"],
+    install_requires = ["pyreadr"]
 )
