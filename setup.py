@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 setup(
     name = 'package_name',
     version = '1.2.0',
-    url = 'https://github.com/ThomasLastName/slug.git',
+    url = 'https://github.com/ThomasLastName/slug',
     author = 'Thomas Winckelman',
     author_email = 'winckelman@tamu.edu',
     description = 'Description of my package',
