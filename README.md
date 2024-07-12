@@ -1,4 +1,4 @@
-# test
+# Minimal setup.py demo
 
 Repo demonstrating how to build/host a python package in GitHub. You can clone and pull the repo with
 
