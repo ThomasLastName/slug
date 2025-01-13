@@ -5,6 +5,12 @@
 
 from setuptools import setup, find_packages
 
+#
+# ~~ Load the a .txt file, into a list of strings (each line is a string in the list)
+def txt_to_list(filepath):
+    with open(filepath, 'r') as f:
+        return [line.strip() for line in f]
+
 setup(
     name = 'package_name',
     version = '1.2.0',
@@ -13,5 +19,5 @@ setup(
     author_email = 'winckelman@tamu.edu',
     description = 'Description of my package',
     packages = find_packages(),    
-    install_requires = ["pyreadr"]    # ~~~ when you pip install `package_name`, pip will also install `pyreadr`
+    install_requires = txt_to_list("requirements.txt") # ~~~ when you pip install `package_name`, pip will also install `pyreadr`
 )
