@@ -13,7 +13,7 @@ def txt_to_list(filepath):
 
 setup(
     name = 'package_name',
-    version = '1.2.0',
+    version = '1.3.0',
     url = 'https://github.com/ThomasLastName/slug',
     author = 'Thomas Winckelman',
     author_email = 'winckelman@tamu.edu',
