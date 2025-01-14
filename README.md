@@ -9,3 +9,15 @@ Verify installation by running python code `from package_name import test`.
 Here is some further reading:
  - How import statements work: [https://youtu.be/GxCXiSkm6no?si=BdIeM2QpuFVcnVxm](https://youtu.be/GxCXiSkm6no?si=BdIeM2QpuFVcnVxm)
  - How to put in on PyPI: [https://ewencp.org/blog/a-brief-introduction-to-packaging-python/index.html](https://ewencp.org/blog/a-brief-introduction-to-packaging-python/index.html)
+
+# Building Your Own Package
+
+Starting with this repo as it is (e.g., by using it as a template), basically just change the names of the folders and whatnot. Specifically, change the following:
+1. The name of the folder `package_name`, which is the name you'll have to type during import statements (e.g., from `from package_name import test`).
+2. The dependencies listed in `requirements.txt`.
+3. The argument `version` in `setup.py`.
+2. The argument `url` in `setup.py`.
+4. The argument `author` in `setup.py`.
+5. The argument `author_email ` in `setup.py`.
+6. The argument `author_email ` in `setup.py`.
+7. The argument `description` in `setup.py.
