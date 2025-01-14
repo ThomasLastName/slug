@@ -12,7 +12,7 @@ def txt_to_list(filepath):
         return [line.strip() for line in f]
 
 setup(
-    name = find_packages()[0], # ~~~ assumes there's only package in the directory where `setup.py` is located; otherwise, enter it manually: e.g., "package_name"
+    name = find_packages()[0], # ~~~ assumes there's only package in the directory where `setup.py` is located; otherwise, enter it manually: e.g., `name = "package_name"`
     version = "1.3.0",
     url = "https://github.com/ThomasLastName/slug",
     author = "Thomas Winckelman",
