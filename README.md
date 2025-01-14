@@ -12,7 +12,7 @@ Here is some further reading:
 
 # Building Your Own Package
 
-Starting with this repo as it is (e.g., by using it as a template), basically just change the names of the folders and whatnot. Specifically, change the following:
+Starting with this repo as it is (e.g., by [using it as a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)), basically just change the names of the folders and whatnot. Specifically, change the following:
 1. The name of the folder `package_name`, which is the name you'll have to type during import statements (e.g., from `from package_name import test`).
 2. The dependencies listed in `requirements.txt`.
 3. The argument `version` in `setup.py`.
