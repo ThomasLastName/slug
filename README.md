@@ -21,3 +21,4 @@ Starting with this repo as it is (e.g., by using it as a template), basically ju
 5. The argument `author_email ` in `setup.py`.
 6. The argument `author_email ` in `setup.py`.
 7. The argument `description` in `setup.py.
+8. The name of the repository, itself, which is the name that you "pip install:" e.g., if you rename the repo to `my_fork`, then the repo would be installed using `pip install --upgrade git+https://github.com/ThomasLastName/my_fork.git` or, if you uploaded it to PyPI, then simply `pip install my_fork`.
